@@ -1,0 +1,46 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80px;
+    background-color: black;
+
+    padding: 0px 10px 0px 10px img {}
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        text-align: end;
+        font-family: raleway;
+        font-size: 18px;
+        flex: 1;
+
+       a:hover {
+            color: #f6b221;
+            text-decoration: none;
+        }
+
+        div {
+            text-decoration: none;
+            color: white;
+            padding: 0 3%;
+
+
+
+            img {
+                max-width: 280px;
+                width: 100%;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 0 3%;
+
+            }
+        }
+
+    }
+}
