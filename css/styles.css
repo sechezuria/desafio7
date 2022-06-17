@@ -2,6 +2,26 @@
   font-family: raleway;
   src: url(../fonts/Raleway-Bold.ttf); }
 
+.btn-primary {
+  background-color: #f6b221; }
+
+.btn-secondary {
+  background-color: #0dcfdd; }
+
+.btn-tertiary {
+  background-color: #999; }
+
+.btn-red {
+  background-color: red; }
+
+.btn-green {
+  background-color: green; }
+
+.button, .btn-primary, .btn-secondary, .btn-tertiary, .btn-red, .btn-green {
+  padding: 10px;
+  border: none;
+  text-transform: uppercase; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -82,12 +102,19 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: 1fr; }
     .BodyNosotros .ContainerNosotros .InfoNosotros {
-      display: flex;
       flex-wrap: wrap;
       padding: 1%;
       grid-column: 1 / 2;
       max-width: 100%;
-      background-color: #fff; }
+      background-color: #fff;
+      border: 1px solid rgba(204, 204, 204, 0.5);
+      background-color: #fff;
+      box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.15);
+      display: -webkit-flex;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column; }
       .BodyNosotros .ContainerNosotros .InfoNosotros h3 {
         font-family: "Raleway", sans-serif;
         font-size: 18px;

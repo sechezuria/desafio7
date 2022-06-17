@@ -1,33 +1,30 @@
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    min-height: 80px;
-    background-color: black;
+    
+  height: 80px;
+    background-color: $black;
 
-    padding: 0px 10px 0px 10px img {}
+    padding: 0px 10px 0px 10px;
 
     nav {
         display: flex;
         justify-content: flex-end;
         text-align: end;
-        font-family: raleway;
-        font-size: 18px;
+        font-family: $fontRaleway;
+        font-size: $mdFontSize;
         flex: 1;
 
-       a:hover {
-            color: #f6b221;
+        a:hover {
+            color: $primary;
             text-decoration: none;
         }
 
-        div {
+        .botonmenu {
             text-decoration: none;
-            color: white;
+            color: $white;
             padding: 0 3%;
-
-
 
             img {
                 max-width: 280px;
@@ -36,11 +33,10 @@ header {
 
             a {
                 text-decoration: none;
-                color: white;
+                color: $white;
                 padding: 0 3%;
 
             }
         }
-
     }
 }

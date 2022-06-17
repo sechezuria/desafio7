@@ -3,12 +3,61 @@
     src: url(../fonts/Raleway-Bold.ttf);
 }
 
+// Mixim
+
+@mixin card-light {
+    border: 1px solid rgba(204, 204, 204, .5);
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(217, 217, 217, .15);
+}
+
+@mixin flex ($justifyContent, $alignItems, $flexDirection) {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-direction: $flexDirection;
+}
+
+// Maps
+
+$butons: (primary: #f6b221,
+    secondary:rgb(13, 207, 221),
+    tertiary:#999,
+    red:red,
+    green:green,
+
+);
+
+
+
+@each $btn,
+$color in$butons {
+
+    .btn-#{$btn} {
+
+        background-color: $color;
+        @extend.button
+    }
+
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
 }
 
-$fontRaleway: 'Raleway', sans-serif;
+$fontRaleway: 'Raleway',
+sans-serif;
 
 $xxsFontSize: 11px;
 $mainFontSize: 14px;
@@ -20,6 +69,7 @@ $primary: #f6b221;
 $secondary: darkorange;
 $black: #000000;
 $white: #fff;
+$tertiary:#f2f2f2;
 
 
 * {
@@ -36,8 +86,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-  height: 80px;
+
+    height: 80px;
     background-color: $black;
 
     padding: 0px 10px 0px 10px;
@@ -131,12 +181,13 @@ header {
         grid-template-rows: 1fr;
 
         .InfoNosotros {
-            display: flex;
             flex-wrap: wrap;
             padding: 1%;
             grid-column: 1 / 2;
             max-width: 100%;
             background-color: $white;
+            @include card-light;
+            @include flex(flex-start,center,column);
 
             h3 {
                 font-family: $fontRaleway;
@@ -227,7 +278,7 @@ header {
     /* No se aun como desplegar el menu, de momento se oculta al llegar a version mobile */
     .menuBurger {
         display: none;
-        
+
     }
 
     .menuBurger .menuIcon {
@@ -274,7 +325,8 @@ header {
         flex-direction: column;
 
     }
-    header{
+
+    header {
         flex-wrap: wrap;
         height: auto !important;
     }
