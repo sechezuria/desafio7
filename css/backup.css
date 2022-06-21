@@ -74,10 +74,7 @@ body {
     text-decoration: none;
 }
 
-/* .menu li {
-    display: inline;
-    padding: 10px */
-/* } */
+
 
 .title {
     margin: 0 0 15px 0;
@@ -106,14 +103,7 @@ body {
 
 
 
-/* .bannerImg {
-    grid-column: 1 / 3;
-    grid-row: 1 / 1;
-    display: flex;
-    background-image: url("../img/edificio.jpg");
-    background-size: cover;
-    background-position: center;
-} */
+
 .containerproductos {
     font-size: medium;
     font-family: raleway;
@@ -369,10 +359,7 @@ body {
     text-align: center;
 }
 
-.servicesAssetmanagement {
-    background-color: white;
-    padding: 1rem;
-}
+
 
 .servicebrokerage {
     background-color: white;
