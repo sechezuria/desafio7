@@ -250,51 +250,51 @@ header {
     flex-wrap: wrap;
 
     .contactImg {
-        flex: 1;
-        width: 100%;
-        background-image: url("../img/edificio.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .formContainer {
-        flex: 3;
-        font-family: raleway;
-        max-width: 60%;
-        margin: 0 auto;
-        width: 100%;
-        background-color: #eeeeee;
-        padding: 20px;
-    }
-    
-    .inputField {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    
-    .inputField label {
-        margin-bottom: 10px;
-    }
-    
-    
-    .inputField input {
-        padding: 12px 12px;
-        border: 1px solid #999999;
-    }
-    
-    .inputField select {
-        padding: 12px 12px;
-        border: 1px solid #999999;
-        margin-bottom: 15px;
-    }
-    
-    .inputField textarea {
-        padding: 12px 12px;
-        border: 1px solid #999999;
-    
-    
-    }
+    flex: 1;
+    width: 100%;
+    background-image: url("../img/edificio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.formContainer {
+    flex: 3;
+    font-family: raleway;
+    max-width: 60%;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.inputField label {
+    margin-bottom: 10px;
+}
+
+
+.inputField input {
+    padding: 12px 12px;
+    border: 1px solid #999999;
+}
+
+.inputField select {
+    padding: 12px 12px;
+    border: 1px solid #999999;
+    margin-bottom: 15px;
+}
+
+.inputField textarea {
+    padding: 12px 12px;
+    border: 1px solid #999999;
+
+
+}
 }
 
 .card {
@@ -434,7 +434,9 @@ header {
 
 .footer {
     max-width: 100%;
-    padding-left: 5rem;
+    padding-left: 5%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
     background-color: $black;
     color: $white;
     justify-content: center;
@@ -442,29 +444,16 @@ header {
     .menufooter {
         color: $white;
         text-decoration: none;
+        padding-right: 2em;
 
     }
 
 }
 
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 780px) {
 
     .mobileColumnDirection {
         flex-direction: column;
-    }
-
-    .hiddenMobile {
-        display: none;
     }
 
     .bannerContainer {
