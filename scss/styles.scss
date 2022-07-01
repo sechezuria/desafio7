@@ -126,6 +126,8 @@ header {
 
 //seccion home 
 
+
+
 .bannerContainer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -133,8 +135,19 @@ header {
     background-image: url(../img/edificio.jpg);
     color: aliceblue;
     text-align: center;
+    
+    .videoCard{
+        padding: 4%;
+
+
+    }
     .video {
+        padding: 20px;
         width: 100%;
+    }
+    .titlehome{
+margin: 0%;
+        padding: 10%;
     }
     
 }
@@ -165,8 +178,8 @@ header {
 
     .productosconteo {
         background-color: rgba(0, 0, 0, 0.3);
-        padding-left: auto;
-        padding-right: auto;
+        padding-left: 20%;
+        padding-right: 20%;
         justify-content: center;
         display: flex;
     }
@@ -378,7 +391,7 @@ header {
                 width: 100%;
 
                 .titlehome {
-                    padding: 7vw !important;
+                    padding: 1vw !important;
                     
                 }
             }
@@ -406,7 +419,7 @@ header {
 
         .InfoNosotros {
             flex-wrap: wrap;
-            padding: 1%;
+          
             grid-column: 1 / 2;
             max-width: 100%;
             background-color: $white;
@@ -419,7 +432,7 @@ header {
                 line-height: 1.6;
             }
 
-            p {
+            p {padding: 3%;
                 font-family: $fontRaleway;
                 font-size: $mainFontSize;
                 line-height: 1.6;
