@@ -132,24 +132,26 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     display: grid;
-    background-image: url(../img/);
+    background-image: url(../img/edificio.jpg);
     color: aliceblue;
     text-align: center;
-    
-    .videoCard{
+
+    .videoCard {
         padding: 4%;
 
 
     }
+
     .video {
         padding: 20px;
         width: 100%;
     }
-    .titlehome{
-margin: 0%;
+
+    .titlehome {
+        margin: 0%;
         padding: 10%;
     }
-    
+
 }
 
 .containerproductos {
@@ -171,10 +173,10 @@ margin: 0%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    
-    
+
+
     }
-    
+
 
     .productosconteo {
         background-color: rgba(0, 0, 0, 0.3);
@@ -183,22 +185,23 @@ margin: 0%;
         justify-content: center;
         display: flex;
     }
-    
+
     .conteo {
-    
-    
+
+
         padding-right: 2rem;
         padding-left: 2rem;
         margin-top: 0px;
-    
+
         justify-content: center;
         text-align: center;
     }
 
 
-    
-    
+
+
 }
+
 //seccion servicios
 
 .servicestitle {
@@ -212,6 +215,7 @@ margin: 0%;
 .ServicesContainer {
     font-family: raleway;
     padding: 2%;
+
     .servicebrokerage {
         background-color: white;
         display: flex;
@@ -221,14 +225,15 @@ margin: 0%;
         .servicebrokerage h2 {
             margin-bottom: 0px;
         }
-        
+
         .servicebrokerage p {
             line-height: 1.6;
         }
     }
 
-  
+
 }
+
 .reversed {
     flex-direction: row-reverse;
 }
@@ -249,6 +254,8 @@ margin: 0%;
 
 .marginMedProp {
     margin: 20px 20px;
+
+
 }
 
 .marginProp {
@@ -263,51 +270,51 @@ margin: 0%;
     flex-wrap: wrap;
 
     .contactImg {
-    flex: 1;
-    width: 100%;
-    background-image: url("../img/edificio.jpg");
-    background-size: cover;
-    background-position: center;
-}
+        flex: 1;
+        width: 100%;
+        background-image: url("../img/edificio.jpg");
+        background-size: cover;
+        background-position: center;
+    }
 
-.formContainer {
-    flex: 3;
-    font-family: raleway;
-    max-width: 60%;
-    margin: 0 auto;
-    width: 100%;
-    background-color: #eeeeee;
-    padding: 20px;
-}
+    .formContainer {
+        flex: 3;
+        font-family: raleway;
+        max-width: 60%;
+        margin: 0 auto;
+        width: 100%;
+        background-color: #eeeeee;
+        padding: 20px;
+    }
 
-.inputField {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
+    .inputField {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
 
-.inputField label {
-    margin-bottom: 10px;
-}
-
-
-.inputField input {
-    padding: 12px 12px;
-    border: 1px solid #999999;
-}
-
-.inputField select {
-    padding: 12px 12px;
-    border: 1px solid #999999;
-    margin-bottom: 15px;
-}
-
-.inputField textarea {
-    padding: 12px 12px;
-    border: 1px solid #999999;
+    .inputField label {
+        margin-bottom: 10px;
+    }
 
 
-}
+    .inputField input {
+        padding: 12px 12px;
+        border: 1px solid #999999;
+    }
+
+    .inputField select {
+        padding: 12px 12px;
+        border: 1px solid #999999;
+        margin-bottom: 15px;
+    }
+
+    .inputField textarea {
+        padding: 12px 12px;
+        border: 1px solid #999999;
+
+
+    }
 }
 
 .card {
@@ -326,9 +333,12 @@ margin: 0%;
 }
 
 .card .bodyText {
+    
     font-size: 15px;
     font-family: lato;
     line-height: 1.6;
+
+    
 }
 
 .btn:hover {
@@ -345,6 +355,7 @@ margin: 0%;
     font-family: lato;
     font-weight: bold;
 }
+
 .newsContainer {
 
     padding: 25px 15px;
@@ -353,11 +364,23 @@ margin: 0%;
     width: 100%;
     background-color: #eeeeee;
     justify-content: center;
+
+
+
     .newsTitle {
         margin: 0px;
         font-family: raleway;
         width: 100%;
         text-align: center;
+    }
+
+    .newscard{
+
+     
+        margin: 0%;
+        padding: 0%;
+
+
     }
 }
 
@@ -392,7 +415,7 @@ margin: 0%;
 
                 .titlehome {
                     padding: 1vw !important;
-                    
+
                 }
             }
 
@@ -419,7 +442,7 @@ margin: 0%;
 
         .InfoNosotros {
             flex-wrap: wrap;
-          
+
             grid-column: 1 / 2;
             max-width: 100%;
             background-color: $white;
@@ -432,7 +455,8 @@ margin: 0%;
                 line-height: 1.6;
             }
 
-            p {padding: 3%;
+            p {
+                padding: 3%;
                 font-family: $fontRaleway;
                 font-size: $mainFontSize;
                 line-height: 1.6;

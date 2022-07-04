@@ -226,6 +226,9 @@ header {
     font-family: raleway;
     width: 100%;
     text-align: center; }
+  .newsContainer .newscard {
+    margin: 0%;
+    padding: 0%; }
 
 .BodyNosotros {
   background-color: #dad8d8; }
